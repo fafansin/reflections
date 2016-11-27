@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing the git repository allows creates a snapshot of the current directory. With this the hidden files used to track the versions for GIT will then be created.
+
+How is the staging area different from the working directory and repository? What value do you think it offers?
+
+Staging is a temporary area while working directory is the actual location of your files. Staging is usually used to separate the logical commits on the repository when multiple files or updates are already done on the working directory but you want to have a cleaner approach on separating the logical commits.
