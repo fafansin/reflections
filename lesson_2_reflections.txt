@@ -1,7 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Initializing the git repository allows creates a snapshot of the current directory. With this the hidden files used to track the versions for GIT will then be created.
+- Initializing the git repository allows creates a snapshot of the current directory. With this the hidden files used to track the versions for GIT will then be created.
 
 How is the staging area different from the working directory and repository? What value do you think it offers?
 
-Staging is a temporary area while working directory is the actual location of your files. Staging is usually used to separate the logical commits on the repository when multiple files or updates are already done on the working directory but you want to have a cleaner approach on separating the logical commits.
+- Staging is a temporary area while working directory is the actual location of your files. Staging is usually used to separate the logical commits on the repository when multiple files or updates are already done on the working directory but you want to have a cleaner approach on separating the logical commits.
+
+How can you ue the staging aread to make sure you have one commit per logical change?
+- This can be achieved by adding the necessary files in staging area first befor running the commit command
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- Usually when you want to keep an origianl working environment and needed to run a proof-of-concept activity. This will ensure that your new branch will not affect a working version of your applciation.
+
+How do the diagrams help you visialize the branch structure?
+- Gives you visual representation of the branches of the main project. It also helps understanding how versions are created through each of the branches.
