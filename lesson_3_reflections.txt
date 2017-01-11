@@ -3,4 +3,6 @@ This is the content for the lesson 3 reflections file
 Why might you wan to always pull changes manually rather than gaving Hit automatically stay up-to-date with your remote repository?
 - During collaboration, there are times that new files may be added on the remote repository while you are editing its local version. You may introduce further bugs on the code of it automatically updates specially when you are not yet ready. So it would always be better to manually update your local file on a manual basis once you are prepared.
 
--Addting new content on this file from local machine
+-editing new content on this file from local machine
+
+-Testing an edit on the file from github directly
